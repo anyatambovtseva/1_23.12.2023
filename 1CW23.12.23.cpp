@@ -4,13 +4,13 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	int s, fact=1;
-	cout << "ââåäèòå öåëîå ÷èñëî: ";
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
 	cin >> s;
 	while (s > 0)
 	{
 		fact = fact * s;
 		s = s - 1;
 	}
-	cout << "ôàêòîðèàë ÷èñëà ðàâåí " << fact;
+	cout << "Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» Ñ‡Ð¸ÑÐ»Ð° Ñ€Ð°Ð²ÐµÐ½ " << fact;
 	return 0;
 }
