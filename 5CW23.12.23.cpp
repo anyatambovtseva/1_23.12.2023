@@ -25,12 +25,12 @@ int main()
     string inputString;
     int maxLength = 3;
 
-    cout << "Ââåäèòå ñòðîêó ñ ïîäñòðîêàìè: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ñ€Ð¾ÐºÑƒ Ñ Ð¿Ð¾Ð´ÑÑ‚Ñ€Ð¾ÐºÐ°Ð¼Ð¸: ";
     getline(cin, inputString);
 
     removeLongSubstrings(inputString, maxLength);
 
-    cout << "Ðåçóëüòàò: " << inputString << endl;
+    cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << inputString << endl;
 
     return 0;
 }
